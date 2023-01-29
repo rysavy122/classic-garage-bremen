@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kontakt.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Classic Garage Bremen</title>
+</head>
+<body>
+    <style>
+    </style>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <div id="flex-container">
+                <div id="flex-box1"><a href="/index.html" class="active"><img src="img/logo.png" alt="logo"></a><br /></div>
+                <div id="flex-box2">
+                    <a></a>
+                    <a href="/about.html">Über uns</a>
+                    <a href="/service.html">Leistungen</a>
+                    <a href="/bilder.html">Bilder</a>
+                    <a href="/preise.html">Preise</a>
+                    <a href="/kontakt.html">Kontakt</a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <h1>Kontakt</h1>
+        <div id="contact">
+            <form action="">
+                <input placeholder="Name ..." type="text" required>
+                <input placeholder="Email ..." type="email" required>
+                <input placeholder="Betreff ..." type="text">
+                <textarea placeholder="Schreibe eine Nachricht ..."></textarea>
+                <button type="submit">Nachricht senden</button>
+            </form>
+        </div>
+        <h2></h2>
+        <p id="contact">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, at?</p>
+    </main>
+    <footer>
+        <br />
+        <br/>
+       <img>
+       <img>
+       <div id="flexbox">
+        <div id="impressum">
+            <h4>Impressum</h4>
+                <p>Classic Garage Bremen</p>
+                <p>Kfz Meisterbetrieb</p> 
+                <p><span>Inhaber: </span>Frank Sommer</p>   
+                <p>Konsul Schmidt Str 26 28217 Bremen</p> 
+                <p>Tel 0421-89 77 32 83</p> 
+                <p><span>Email: </span>info@classicgarage-bremen.de</p>
+            </div>
+            <div id="kontakt">
+                <h4>Kontakt</h4>
+                <p>Tel 0421-89 77 32 83</p> 
+                <p><span>Email: </span>info@classicgarage-bremen.de</p>
+            </div>
+       </div>
+       <p id="footer"> © 2014. Classicgarage. All Rights Reserved.</p>  
+    </footer>
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</html>
