@@ -5,6 +5,18 @@
     letter-spacing: 1.5px;
 }
 
+
+
+body{
+  background-color: #f4f4f4;
+
+}
+#flex-container1{
+  display: flex;
+  justify-content: space-evenly;
+  margin:10%;
+}
+
 /*NAV*/
 #flex-container{
   display: flex;
@@ -88,6 +100,28 @@ p#welcome{
 p{
     margin:20px;
 }
+
+.element {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 1s ease-out;
+  transition-delay: 1s;
+  border:1px solid black;
+  background-color: #a9301bc0;
+  color:white;
+  padding:20px;
+  margin:auto;
+  font-size: 2em;
+  margin-top:-100px;
+  margin-left:150px;
+  border-radius: 50%;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
 
 #flexbox{
   display: flex;

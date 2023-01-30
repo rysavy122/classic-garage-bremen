@@ -32,7 +32,12 @@
         <h1>Herzlich Willkommen !</h1>
         <h2>Präzision-Perfektion-Passion</h2>
         <p id="welcome">Willkommen auf der Website von Classic Gargae Bremen . Wir hoffen, dass Sie eine Menge nützlicher Informationen auf unserer Website finden. Die Qualität unserer  Dienstleistungen ist uns sehr wichtig. Sie finden detaillierte Informationen zu unseren Arbeiten und Dienstleistungen online oder Sie können sich an unser Team wenden, wenn Sie Fragen haben .</p>
-        <hr style="margin-bottom:50vh;">
+        <hr style="margin-bottom:40vh;">
+        <div id="flex-container1">
+            <div class="element"><i class="fa fa-briefcase"></i></div>
+            <div class="element"><i class="fa fa-car"></i></div>
+            <div class="element"><i class="fa fa-gears"></i></div>
+        </div>
     </main>
     <footer>
         <br />
@@ -67,6 +72,18 @@
         x.className = "topnav";
       }
     }
-    </script>
+</script>
+<script>
+        window.onscroll = function() {
+          const elements = document.querySelectorAll(".element");
+          const pageY = window.pageYOffset;
+          for (let i = 0; i < elements.length; i++) {
+            if (pageY > 500) {
+              elements[i].classList.add("fade-in");
+            }
+          }
+        };
+</script>
+      
 
 </html>

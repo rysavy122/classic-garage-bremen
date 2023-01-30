@@ -4,6 +4,10 @@
     font-family: 'Dosis', sans-serif;
     letter-spacing: 1.5px;
 }
+body{
+  background-color: #f4f4f4;
+
+}
 
 /*NAV*/
 #flex-container{
@@ -17,7 +21,6 @@
 .topnav {
   overflow: hidden;
   background-color: white;
-  border-bottom: 1px solid black;
 }
 
 .topnav a {
